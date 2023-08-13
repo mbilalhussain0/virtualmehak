@@ -1,0 +1,15 @@
+@media (max-width: 576px) { 
+    .navbar-brand{
+        font-size: 25px;
+    } 
+    #serviceheadertop{
+        margin-top: -50px;
+    }
+    .mt-mob-2{
+        margin-top: 10px;
+    }
+    #about-boday{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

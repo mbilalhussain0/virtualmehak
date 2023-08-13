@@ -1,0 +1,425 @@
+/* Fonts import */
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('../fonts/Proxima-Nova-Font.otf');
+}
+@font-face {
+    font-family: 'proxima-light';
+    src: url('../fonts/Fontspring-DEMO-proximanovacond-light.otf');
+}
+
+body {
+    font-family: 'proxima-nova';
+}
+
+.mx-95 {
+    max-width: 95%;
+}
+
+#desktopnavbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    font-family: proxima-nova;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: .1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #504d49;
+}
+
+#desktopnavbar .nav-link {
+    color: #c6b090;
+    font-family: proxima-nova;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin: 0 1em;
+    padding: 0.618em 0;
+}
+
+#headertop {
+    background-color: #4a4545;
+    background-image: url('../images/marissa-grootes-ck0i9Dnjtj0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.headertop-heading h2 {
+    text-align: center;
+    white-space: pre-wrap;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: .05em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.about-heading h1 {
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: .05em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #232a2a;
+    border-left: 1px solid #ddd;
+    padding-left: 1.618em;
+}
+
+.about-heading {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.card-title {
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .03em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: #a6a998;
+}
+
+.card-text {
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: #232a2a;
+}
+
+.btn-primary {
+    border-radius: 0px;
+    font-family: proxima-nova;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #fff;
+    background-color: transparent;
+    /* background-color: #232a2a; */
+    border-color: #232a2a;
+    padding: 13px 26px;
+    border: 2px solid #232a2a;
+    color: #232a2a;
+}
+
+.btn-primary:hover {
+    background-color: #232a2a;
+    border-color: #232a2a;
+}
+
+.follow-tip-heading {
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: .03em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: #a6a998;
+}
+
+#followtipsection {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#footersection {
+    padding: 100px 50px;
+    background-color: #232a2a;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer-heading {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    letter-spacing: .06em;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: #52c2c8;
+    font-family: Fjalla One;
+}
+
+.text-color {
+    color: #e1dddb;
+}
+
+.powerd {
+    color: #e1dddb;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+    text-transform: none;
+}
+
+/* ***********About css*********** */
+#about-boday {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.about-page-heading {
+    font-family: proxima-nova;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    letter-spacing: .08em;
+    line-height: .9em;
+    text-transform: uppercase;
+}
+
+.about-paragraph {
+    line-height: 1.6em;
+    font-family: proxima-nova;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: #232a2a;
+}
+
+.btn-dark {
+    font-family: proxima-nova;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #fff;
+    background-color: #504d49;
+    border-color: #504d49;
+    padding: 21px 34px;
+}
+#servicebackground {
+    background-image: url('../images/pexels-polina-zimmerman-3747257.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#expertisebackground {
+    background-image: url('../images/pexels-polina-zimmerman-3747257.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#servicebackground h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+ul li{
+    font-family: 'proxima-light';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 40px;
+    text-transform: none;
+    color: #232a2a !important;
+}
+.custome-p{
+    font-family: 'proxima-light';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 40px;
+    text-transform: none;
+    color: #232a2a !important;
+}
+.price{
+    font-family: proxima-nova;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    letter-spacing: .05em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+/* .navbar-toggler:focus {
+
+box-shadow: none;
+} */
+
+
+
+/***
+
+====================================================================
+41.	Get Quote
+====================================================================
+
+***/
+.get-quote-two {
+    position: relative;
+    padding: 120px 0px 210px;
+    background-color: var(--thm-black);
+    background-image: url(../images/contact-bg-1-1.png);
+    background-size: cover;
+    color: #999b9f;
+  }
+  
+  .get-quote-two__one-page {
+    padding-bottom: 120px;
+  }
+  
+  @media (max-width: 991px) {
+    .get-quote-two__one-page {
+      padding-bottom: 70px !important;
+    }
+  }
+  
+  .get-quote-two .sec-title {
+    margin-bottom: 35px;
+  }
+  
+  .get-quote-two .sec-title h2 {
+    color: #ffffff;
+  }
+  
+  .get-quote-two .left-col {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .get-quote-two .left-col .inner {
+    position: relative;
+    display: block;
+    max-width: 480px;
+  }
+  
+  .get-quote-two .left-col .text {
+    position: relative;
+    display: block;
+    color: #999b9f;
+    margin-bottom: 35px;
+  }
+  
+  .get-quote-two .info {
+    position: relative;
+    display: block;
+  }
+  
+  .get-quote-two .form-box form .form-group input,
+  .get-quote-two .form-box form .form-group select,
+  .get-quote-two .form-box form .form-group textarea,
+  .get-quote-two .form-group .ui-selectmenu-button.ui-button {
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  
+  .get-quote-two .info ul li {
+    position: relative;
+    display: block;
+    min-height: 60px;
+    padding-left: 85px;
+    line-height: 28px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .get-quote-two .info ul li strong {
+    display: block;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: var(--thm-font);
+    margin-top: -4px;
+  }
+  
+  .get-quote-two .info ul li .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 30px;
+    padding: 15px 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: var(--thm-base);
+    border-radius: 50%;
+    font-size: 16px;
+    color: var(--thm-black);
+  }
+  
+  .get-quote-two .info ul li:last-child {
+    margin: 0;
+  }
+  
+  .get-quote-two .info ul li a {
+    position: relative;
+    color: #999b9f;
+    line-height: 28px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
+  
+  .get-quote-two .info ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+    -webkit-text-decoration-color: var(--thm-base);
+    text-decoration-color: var(--thm-base);
+  }
+  
+  .get-quote-two .right-col {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .get-quote-two .right-col .inner {
+    position: relative;
+    display: block;
+  }
+  
+  .get-quote-two .form-box {
+    position: relative;
+    display: block;
+  }
+  
+  .get-quote-two .form-box form .row {
+    margin: 0 -10px;
+  }
+  
+  .get-quote-two .form-box form .form-group {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+  }
+  
