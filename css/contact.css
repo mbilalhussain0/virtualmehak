@@ -47,7 +47,7 @@ body {
 }
 .get-in-touch .title {
   text-align: center;
-  font-family: Raleway, sans-serif;
+  font-family: 'Farro', sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 36px;
@@ -65,7 +65,7 @@ body {
   height: 36px;
   border-width: 0 0 2px 0;
   border-color: #000;
-  font-family: Lusitana, serif;
+  font-family: 'Farro', sans-serif;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
@@ -80,7 +80,7 @@ body {
   position: absolute;
   left: 20px;
   bottom: 11px;
-  font-family: Lusitana, serif;
+  font-family: 'Farro', sans-serif;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
@@ -92,7 +92,7 @@ body {
   display: inline-block;
   background-color: #000;
   color: #fff;
-  font-family: Raleway, sans-serif;
+  font-family: 'Farro', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 16px;
@@ -108,7 +108,7 @@ body {
   bottom: 10px;
   width: 100%;
   text-align: center;
-  font-family: Lusitana, serif;
+  font-family: 'Farro', sans-serif;
   font-size: 16px;
   line-height: 21px;
 }
